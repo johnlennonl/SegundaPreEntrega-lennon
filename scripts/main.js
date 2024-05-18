@@ -51,7 +51,7 @@ let caloriasSuperiores = filtrarCaloriasSuperiores(1500);
 //* Mostramos los resultados :
 alert(`${nombre} El total de calorías adquiridas esta semana es de: ${totalCalorias} ✍`);
 alert(`El día con más calorías adquiridas fue el Día ${diaMaxCalorias} ✍`);
-alert(`Los días que consumiste calorías superiores a 800kcal: fue de ${caloriasSuperiores.join(',')} ✍`);
+alert(`Los días que consumiste calorías superiores a 1500kcal: fue de ${caloriasSuperiores.join(',')} ✍`);
 
 //? Verificamos si el total de calorías es superior a 12000
 if (totalCalorias > 12000) {
